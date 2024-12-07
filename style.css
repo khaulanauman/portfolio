@@ -1,0 +1,31 @@
+*{
+    background-color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 40px;
+    color:rgba(255, 255, 255, 0.677);
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: 550px;
+    height: 550px;
+    margin: 0 auto; 
+}
+button{
+    width: 80px;
+    height: 40px;
+    background-color:white;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    flex:2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
