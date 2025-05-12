@@ -59,7 +59,7 @@ export default function Home() {
               <button
                 data-collapse-toggle="mobile-menu-2"
                 type="button"
-                className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-orange-200"
+                className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
                 aria-controls="mobile-menu-2"
                 aria-expanded="false"
               >
@@ -450,7 +450,7 @@ export default function Home() {
         </section>
       </div>
       <div className="footer mt-10">
-        <footer className="bg-orange-50 dark:bg-gray-900">
+        <footer className="bg-orange-50 ">
           <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
             <div className="md:flex md:justify-between">
               <div className="mb-6 md:mb-0">
@@ -462,10 +462,10 @@ export default function Home() {
               </div>
               <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                 <div>
-                  <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                  <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase ">
                     Follow Me
                   </h2>
-                  <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                  <ul className="text-gray-500  font-medium">
                     <li>
                       <a
                         href="https://www.instagram.com/websitesbykhaula/"
@@ -494,7 +494,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <hr className="my-6 border-gray-200 dark:border-gray-700 lg:my-8" />
+            <hr className="my-6 border-gray-200 lg:my-8" />
             <div className="flex justify-center items-center">
               <span className="text-sm text-gray-500 dark:text-gray-400">
                 © 2025{" "}
