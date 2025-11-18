@@ -135,7 +135,7 @@ const projects = () => {
                       Foobi
                     </p>
                     <h3 className="mt-1 text-sm text-gray-700">
-                      A wesbite for football fans.
+                      A wesbite for lil bro.
                     </h3>
                   </a>
                   <a

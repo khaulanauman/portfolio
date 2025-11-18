@@ -3,6 +3,7 @@ import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 import { useRef, useState, useEffect } from "react";
 import Projects from "../projects/projects";
+import Link from "next/link";
 
 export default function Home() {
   const form = useRef<HTMLFormElement>(null);
@@ -44,11 +45,11 @@ export default function Home() {
       <header>
         <nav className=" border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-orange-100">
           <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-            <a href="#" className="flex items-center">
+            <Link className="flex items-center" href="/">
               <span className="self-center text-xl font-semibold whitespace-nowrap ">
                 KN
               </span>
-            </a>
+            </Link>
             <div className="flex items-center lg:order-2">
               <a
                 href="https://www.instagram.com/websitesbykhaula/"
@@ -105,12 +106,12 @@ export default function Home() {
                   </a>
                 </li>
                 <li>
-                  <a
-                    href=""
+                  <Link
                     className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                    href="/projects"
                   >
                     Projects
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a
