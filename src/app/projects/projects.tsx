@@ -12,8 +12,21 @@ const projects = () => {
                 <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 xl:gap-x-8">
                   <a href="https://www.asksunnah.com" className="group">
                     <img
+                      src="\knitella.png"
+                      alt="project image"
+                      className=" w-fit rounded-lg bg-gray-200 object-cover group-hover:opacity-75 "
+                    />
+                    <p className="mt-4 text-lg font-medium text-gray-900">
+                      Knitella
+                    </p>
+                    <h3 className="mt-1 text-sm text-gray-700">
+                      A corchet website for a client.
+                    </h3>
+                  </a>
+                  <a href="https://mydukaan.io/knitella" className="group">
+                    <img
                       src="\asksunnah.png"
-                      alt="Tall slender porcelain bottle with natural clay textured body and cork stopper."
+                      alt="project image"
                       className=" w-fit rounded-lg bg-gray-200 object-cover group-hover:opacity-75 "
                     />
                     <p className="mt-4 text-lg font-medium text-gray-900">
@@ -30,7 +43,7 @@ const projects = () => {
                   >
                     <img
                       src="\organicxpure.png"
-                      alt="Tall slender porcelain bottle with natural clay textured body and cork stopper."
+                      alt="project image"
                       className=" w-fit rounded-lg bg-gray-200 object-cover group-hover:opacity-75 "
                     />
                     <p className="mt-4 text-lg font-medium text-gray-900">
@@ -47,7 +60,7 @@ const projects = () => {
                   >
                     <img
                       src="\lawlensai.jpg"
-                      alt="Tall slender porcelain bottle with natural clay textured body and cork stopper."
+                      alt="project image"
                       className=" w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 "
                     />
                     <p className="mt-4 text-lg font-medium text-gray-900">
