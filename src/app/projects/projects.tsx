@@ -10,7 +10,7 @@ const projects = () => {
             <div className="bg-orange-100">
               <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
                 <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 xl:gap-x-8">
-                  <a href="https://www.asksunnah.com" className="group">
+                  <a href="https://mydukaan.io/knitella" className="group">
                     <img
                       src="\knitella.png"
                       alt="project image"
@@ -23,7 +23,7 @@ const projects = () => {
                       A corchet website for a client.
                     </h3>
                   </a>
-                  <a href="https://mydukaan.io/knitella" className="group">
+                  <a href="https://www.asksunnah.com" className="group">
                     <img
                       src="\asksunnah.png"
                       alt="project image"
