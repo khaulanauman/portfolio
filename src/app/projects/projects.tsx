@@ -20,7 +20,23 @@ const projects = () => {
                       Knitella
                     </p>
                     <h3 className="mt-1 text-sm text-gray-700">
-                      A corchet website for a client.
+                      A website for a crochet business-knitella.
+                    </h3>
+                  </a>
+                  <a
+                    href="https://ramadan-two-sandy.vercel.app/"
+                    className="group"
+                  >
+                    <img
+                      src="\ramadan.png"
+                      alt="project image"
+                      className=" w-fit rounded-lg bg-gray-200 object-cover group-hover:opacity-75 border-pink-700 border-2 "
+                    />
+                    <p className="mt-4 text-lg font-medium text-gray-900">
+                      Ayah Of the Day
+                    </p>
+                    <h3 className="mt-1 text-sm text-gray-700">
+                      A website that shows ayah of the day, a ramadan gift.
                     </h3>
                   </a>
                   <a href="https://www.asksunnah.com" className="group">
