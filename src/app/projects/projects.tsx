@@ -10,6 +10,19 @@ const projects = () => {
             <div className="bg-orange-100">
               <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
                 <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 xl:gap-x-8">
+                  <a href="https://mydukaan.io/krochetsk" className="group">
+                    <img
+                      src="\krochetsk.png"
+                      alt="project image"
+                      className=" w-fit rounded-lg bg-gray-200 object-cover group-hover:opacity-75 "
+                    />
+                    <p className="mt-4 text-lg font-medium text-gray-900">
+                      Krochetsk
+                    </p>
+                    <h3 className="mt-1 text-sm text-gray-700">
+                      A website for client - krochetsk.
+                    </h3>
+                  </a>
                   <a href="https://mydukaan.io/knitella" className="group">
                     <img
                       src="\knitella.png"
