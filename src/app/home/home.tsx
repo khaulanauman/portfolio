@@ -385,13 +385,7 @@ export default function Home() {
             </div>
             <hr className="my-6 border-gray-200 lg:my-8" />
             <div className="flex justify-center items-center">
-              <span className="text-sm text-gray-500 ">
-                © 2025{" "}
-                <a href="https://flowbite.com/" className="hover:underline">
-                  KhaulaNauman™
-                </a>
-                . All Rights Reserved.
-              </span>
+              <p>&copy; 2026 Khaula Nauman. All rights reserved.</p>
             </div>
           </div>
         </footer>
